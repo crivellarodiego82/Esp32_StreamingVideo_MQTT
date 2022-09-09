@@ -8,11 +8,11 @@ PubSubClient client(espClient);
 #include <Wire.h>
 
 //WiFi
-const char* ssid = "Casa_WiFi_2g";
-const char* password = "P@ssw0rd@2020";
+const char* ssid = "SSID_WiFi";
+const char* password = "Password_Wifi";
 
-const char *ssid_recovery = "Esp_WiFi";
-const char *password_recovery = "P@ssw0rd";
+const char *ssid_recovery = "SSID_Esp_WiFi";
+const char *password_recovery = "Password_EspAP";
 
 //Servo Generico
 const char* topic_servo1 = "servo/servo1";        // Servo 1
